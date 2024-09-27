@@ -1,14 +1,15 @@
-// home.jsx
-import React from "react";
-import { Hero, New, Recommand, Treading } from "../router";
+import React from "react"
+import { Hero, LayoutSidebar, New, Recommand, Treading } from "../router"
 
 export const Home = () => {
   return (
     <>
       <Hero />
-      <Treading />
-      <New />
-      <Recommand />
+      
+        <Treading />
+        <New />
+        <Recommand />
+     
     </>
-  );
-};
+  )
+}
